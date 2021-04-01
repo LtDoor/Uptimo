@@ -9,7 +9,7 @@ const app = express()
 
 const first = db.get("first")
 if(!first || first !== "complete") {
-  db.push("urls","https://uptime.hyrousek.tk")
+  db.push("urls","https://dooruptimer.xyz")
   db.set("first","complete")
 }
 require("./ping.js")
